@@ -1,0 +1,102 @@
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Testing: pytest
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==============================
+# Code Quality Tools
+# ==============================
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.dmypy.json
+.pyre/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Alembic
+# Ignore Python cache only.
+# Keep migration scripts tracked in Git.
+# ==============================
+alembic/versions/__pycache__/
+
+# ==============================
+# Build & Packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# Python Version Managers
+# ==============================
+.python-version
+
+# ==============================
+# Jupyter Notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Local Databases
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+*.bak
