@@ -45,8 +45,8 @@ def get_practice_sessions(
 
     sort_columns = {
         PracticeSessionSort.id: PracticeSession.id,
-        PracticeSessionSort.practice_date: PracticeSession.practice_date,
-        PracticeSessionSort.duration: PracticeSession.duration,
+        PracticeSessionSort.practice_date: PracticeSession.practiced_at,
+        PracticeSessionSort.duration: PracticeSession.duration_minutes,
         PracticeSessionSort.created_at: PracticeSession.created_at,
     }
 
